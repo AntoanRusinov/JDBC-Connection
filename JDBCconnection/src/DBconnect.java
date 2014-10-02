@@ -20,7 +20,7 @@ public class DBconnect {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/study", "root", "antoan69");
+					"jdbc:mysql://localhost:3306/study", "root", "password");
 
 			state = con.createStatement();
 
